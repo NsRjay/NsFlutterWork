@@ -6,7 +6,8 @@ class Viewall extends StatelessWidget {
     {"name":"Rojin","age":22,"Admno":1204,"Pstatus":"not paid"},
     {"name":"Athul","age":21,"Admno":1205,"Pstatus":"paid"},
     {"name":"Rajesh","age":26,"Admno":1205,"Pstatus":"not paid"},
-    {"name":"Suresh","age":29,"Admno":1206,"Pstatus":"not paid"}
+    {"name":"Suresh","age":29,"Admno":1206,"Pstatus":"not paid"},
+    {"name":"Anil","age":27,"Admno":1207,"Pstatus":"paid"}
     ];
   @override
   Widget build(BuildContext context) {
