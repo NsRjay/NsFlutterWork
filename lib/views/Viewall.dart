@@ -5,7 +5,8 @@ class Viewall extends StatelessWidget {
     {"name":"Rohith","age":21,"Admno":1203,"Pstatus":"paid"},
     {"name":"Rojin","age":22,"Admno":1204,"Pstatus":"not paid"},
     {"name":"Athul","age":21,"Admno":1205,"Pstatus":"paid"},
-    {"name":"Rajesh","age":26,"Admno":1205,"Pstatus":"not paid"}
+    {"name":"Rajesh","age":26,"Admno":1205,"Pstatus":"not paid"},
+    {"name":"Suresh","age":29,"Admno":1206,"Pstatus":"not paid"}
     ];
   @override
   Widget build(BuildContext context) {
@@ -24,7 +25,7 @@ class Viewall extends StatelessWidget {
                     margin: EdgeInsets.all(20.0),
                     elevation: 5.0,
                     child: ListTile(
-                    leading: Icon(Icons.perm_identity,size: 20.0),
+                    leading: Icon(Icons.ac_unit,size: 20.0),
                     trailing: data[index]["Pstatus"].toString()=="paid"?Icon(Icons.check): FlatButton(
                       onPressed: (){print("Navigating to payment screen");}, child: Text("Pay Now"),),
                     title:Text("Name:"+data[index]["name"],style: TextStyle(color: Colors.purple)),
