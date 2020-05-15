@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:secondtry/views/Viewall.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:secondtry/views/counter.dart';
 
 class MyLoginScreen extends StatelessWidget {
   TextEditingController usertextcontroller=TextEditingController();
