@@ -60,7 +60,7 @@ class MyLoginScreen extends StatelessWidget {
                     print("Login success");
                     Navigator.push(context,
                         MaterialPageRoute(
-                            builder: (context)=>Viewall()));
+                            builder: (context)=>MyCounterApp()));
                   }
                   else
                   {
