@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:secondtry/views/TaskApp.dart';
 import 'package:secondtry/views/Viewall.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:secondtry/views/counter.dart';
@@ -60,7 +61,7 @@ class MyLoginScreen extends StatelessWidget {
                     print("Login success");
                     Navigator.push(context,
                         MaterialPageRoute(
-                            builder: (context)=>MyCounterApp()));
+                            builder: (context)=>Tasks()));
                   }
                   else
                   {
